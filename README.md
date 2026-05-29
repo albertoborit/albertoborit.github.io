@@ -1,16 +1,30 @@
-## Hi there 👋
+# albertoborit.github.io
 
-<!--
-**albertoborit/albertoborit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Personal site for [GitHub Pages](https://pages.github.com/).
 
-Here are some ideas to get you started:
+## Pages
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| File | Section |
+|------|---------|
+| `index.html` | About me |
+| `blog.html` | Blog |
+| `readings.html` | Readings |
+| `contact.html` | Contact |
+
+## Local preview
+
+Open `index.html` in a browser, or serve the folder:
+
+```bash
+npx serve .
+```
+
+## Publish
+
+1. Push this repo to `github.com/albertoborit/albertoborit.github.io`
+2. In the repo **Settings → Pages**, set source to the `main` branch (root)
+3. Site will be live at https://albertoborit.github.io
+
+## Customize
+
+Edit each HTML file for its content. Shared styles live in `styles.css`; navigation and footer are duplicated on every page.
